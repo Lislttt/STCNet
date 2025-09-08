@@ -190,7 +190,7 @@ class AdditiveTokenMixer(nn.Module):
 
 
 # ----------------------------
-# CAFE (formerly TransformerEncoderLayer_AdditiveTokenMixer)
+# CAFE
 # ----------------------------
 class CAFE(nn.Module):
     def __init__(self, c1, cm=2048, num_heads=8, dropout=0.0):
@@ -336,7 +336,7 @@ class MSCB(nn.Module):
 
 
 # ----------------------------
-# CMFF (formerly CSP_MSCB)
+# CMFF
 # ----------------------------
 class CMFF(nn.Module):
     def __init__(self, c1, c2, n=1, kernel_sizes=[1, 3, 5], shortcut=False, g=1, e=0.5):
