@@ -7,7 +7,7 @@ Authors: Shanlin Li, Zhehan Chen, Xiaodong Zhang, Tao Yang and Dianning Gong
 
 ## Description
 
-STCNet is a lightweight real-time object detection model designed for edge devices and resource-constrained environments. It combines the efficient StarNet backbone with advanced cross-scale feature enhancement and adaptive feature fusion techniques, achieving a strong balance between detection accuracy and computational efficiency. This repository provides model and checkpoints (named by the dataset) to reproduce proposed method.
+STCNet is a lightweight real-time object detection model designed for edge devices and resource-constrained environments. It combines the efficient StarNet backbone with advanced cross-scale feature enhancement and adaptive feature fusion techniques, achieving a strong balance between detection accuracy and computational efficiency. This repository provides model[https://github.com/Lislttt/STCNet/blob/main/Model.py] and checkpoints[https://drive.google.com/drive/my-drive] to reproduce proposed method.
 
 Key Features
 
