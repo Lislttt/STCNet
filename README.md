@@ -7,16 +7,4 @@ Authors: Shanlin Li, Zhehan Chen, Xiaodong Zhang, Tao Yang and Dianning Gong
 
 ## Description
 
-STCNet is a lightweight real-time object detection model designed for edge devices and resource-constrained environments. It combines the efficient StarNet backbone with advanced cross-scale feature enhancement and adaptive feature fusion techniques, achieving a strong balance between detection accuracy and computational efficiency. This repository provides model[https://github.com/Lislttt/STCNet/blob/main/Model.py] and checkpoints[https://drive.google.com/drive/my-drive] to reproduce proposed method.
-
-Key Features
-
-Lightweight Backbone: Efficient star operation for compact yet powerful feature extraction
-
-Cross-Scale Feature Enhancement: Channel-Aware Feature Enhancement (CAFE) modules
-
-Adaptive Feature Fusion: AFFM, AMFB, and CMFF for multi-scale feature integration
-
-Real-Time Ready: Optimized for fast inference on edge devices
-
-Balanced Performance: High accuracy with reduced parameters and FLOPs
+STCNet is a lightweight detection model for steel continuous casting billet surface defects. It combines a star-operation backbone, convolutional additive self-attention, and adaptive cross-scale fusion to enhance feature learning while maintaining efficiency. Evaluated on the SCCB-SDD and GC10-DET datasets, STCNet achieves a strong balance between accuracy and computational cost, outperforming mainstream methods with only 7.1M parameters and 15.6 GFLOPs. This repository provides model[https://github.com/Lislttt/STCNet/blob/main/Model.py] and checkpoints[https://drive.google.com/drive/my-drive] to reproduce proposed method.
