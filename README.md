@@ -3,4 +3,4 @@ Welcome to the official repository for STCNet. This repository includes experime
 
 Authors: Shanlin Li, Zhehan Chen, Xiaodong Zhang, Tao Yang and Dianning Gong
 
-https://github.com/Lislttt/STCNet/blob/main/overview.png
+![image](https://github.com/Lislttt/STCNet/blob/main/overview.png)
