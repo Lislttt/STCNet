@@ -12,7 +12,7 @@ STCNet is a lightweight detection model for steel continuous casting billet surf
 
 ## Datesets
 
-The proposed SCCB-SDD dataset comprises 7,398 images with resolutions around 320×320, covering seven representative types of surface defects in steel continuous casting billets, along with background samples. Specifically, the dataset includes background (1,112 images), roll mark (645), transverse crack (1,112), scratches (773), peeling off (1,112), iron oxide scale (1,112), slag skin (420), and longitudinal crack (1,112).
+The proposed [SCCB-SDD](https://drive.google.com/file/d/17nEcTiUuU_aPd1jO-7V15pqspDomW75l/view?usp=drive_link) dataset comprises 7,398 images with resolutions around 320×320, covering seven representative types of surface defects in steel continuous casting billets, along with background samples. Specifically, the dataset includes background (1,112 images), roll mark (645), transverse crack (1,112), scratches (773), peeling off (1,112), iron oxide scale (1,112), slag skin (420), and longitudinal crack (1,112).
 
 On this dataset, the proposed STCNet achieves an outstanding mAP@50 of 92.1%and mAP@75 of 92.1%, surpassing a broad range of state-of-the-art CNN- and Transformer-based object detection models.
 Among CNN-based methods, YOLOv11 and YOLOv8 achieve 90.4% and 88.8% mAP@50, respectively, while classical two-stage detectors such as Faster R-CNN (80.5%) and SSD perform considerably worse.
