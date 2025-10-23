@@ -12,7 +12,7 @@ STCNet is a lightweight detection model for steel continuous casting billet surf
 
 ## Datesets
 
-The proposed [SCCB-SDD](https://drive.google.com/file/d/17nEcTiUuU_aPd1jO-7V15pqspDomW75l/view?usp=drive_link) dataset comprises 7,398 images with resolutions ranging from 128×128 to 640×640, covering seven representative types of surface defects in steel continuous casting billets, along with background samples. Specifically, the dataset includes background (1,112 images), roll mark (645), transverse crack (1,112), scratches (773), peeling off (1,112), iron oxide scale (1,112), slag skin (420), and longitudinal crack (1,112).
+The proposed [SCCB-SDD](https://drive.google.com/file/d/17nEcTiUuU_aPd1jO-7V15pqspDomW75l/view?usp=drive_link) dataset comprises 7,398 images with resolutions ranging from 64×64 to 640×640, covering seven representative types of surface defects in steel continuous casting billets, along with background samples. Specifically, the dataset includes background (1,112 images), roll mark (645), transverse crack (1,112), scratches (773), peeling off (1,112), iron oxide scale (1,112), slag skin (420), and longitudinal crack (1,112).
 
 On this dataset, the proposed STCNet achieves an outstanding mAP@50 of 92.1%and mAP@75 of 92.1%, surpassing a broad range of state-of-the-art CNN- and Transformer-based object detection models.
 Among CNN-based methods, YOLOv11 and YOLOv8 achieve 90.4% and 88.8% mAP@50, respectively, while classical two-stage detectors such as Faster R-CNN (80.5%) and SSD perform considerably worse.
@@ -20,7 +20,7 @@ Compared with Transformer-based detectors, STCNet also outperforms RT-DETR (90.1
 
 Overall, these results indicate that STCNet achieves competitive detection accuracy while maintaining high computational efficiency. The hybrid Transformer–CNN architecture effectively combines global contextual modeling through the Transformer encoder with fine-grained local texture representation via CNN feature extraction, enabling robust and real-time detection of small-scale and low-contrast defects in industrial steel billet inspection scenarios.
 
-![image](https://github.com/Lislttt/STCNet/blob/main/overview.png)
+![image](https://github.com/Lislttt/STCNet/blob/main/dataset.jpg)
 
 ## Reference
 
