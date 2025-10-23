@@ -12,13 +12,13 @@ STCNet is a lightweight detection model for steel continuous casting billet surf
 
 ## Datesets
 
-The proposed [SCCB-SDD](https://drive.google.com/file/d/17nEcTiUuU_aPd1jO-7V15pqspDomW75l/view?usp=drive_link) dataset comprises 7,398 images with resolutions around 320×320, covering seven representative types of surface defects in steel continuous casting billets, along with background samples. Specifically, the dataset includes background (1,112 images), roll mark (645), transverse crack (1,112), scratches (773), peeling off (1,112), iron oxide scale (1,112), slag skin (420), and longitudinal crack (1,112).
+The proposed [SCCB-SDD](https://drive.google.com/file/d/17nEcTiUuU_aPd1jO-7V15pqspDomW75l/view?usp=drive_link) dataset comprises 7,398 images with resolutions ranging from 128×128 to 640×640, covering seven representative types of surface defects in steel continuous casting billets, along with background samples. Specifically, the dataset includes background (1,112 images), roll mark (645), transverse crack (1,112), scratches (773), peeling off (1,112), iron oxide scale (1,112), slag skin (420), and longitudinal crack (1,112).
 
 On this dataset, the proposed STCNet achieves an outstanding mAP@50 of 92.1%and mAP@75 of 92.1%, surpassing a broad range of state-of-the-art CNN- and Transformer-based object detection models.
 Among CNN-based methods, YOLOv11 and YOLOv8 achieve 90.4% and 88.8% mAP@50, respectively, while classical two-stage detectors such as Faster R-CNN (80.5%) and SSD perform considerably worse.
 Compared with Transformer-based detectors, STCNet also outperforms RT-DETR (90.1%) and Swin Transformer (90.3%), and achieves accuracy comparable to DN-Deformable-DETR (92.0%), yet with 7× fewer parameters (7.1M vs. 47.2M) and only 15.9 GFLOPs of computation. Moreover, STCNet reaches an inference speed of 142.9 FPS, approximately 6× faster than most DETR variants, demonstrating its superior balance between precision and efficiency.
 
-These results clearly demonstrate that STCNet not only attains state-of-the-art detection accuracy, but also delivers remarkable computational efficiency. The hybrid Transformer–CNN architecture enables global contextual modeling through the Transformer encoder while preserving fine-grained local texture representation via CNN feature extraction, resulting in robust and real-time detection of small-scale and low-contrast defects in industrial steel billet inspection scenarios.
+Overall, these results indicate that STCNet achieves competitive detection accuracy while maintaining high computational efficiency. The hybrid Transformer–CNN architecture effectively combines global contextual modeling through the Transformer encoder with fine-grained local texture representation via CNN feature extraction, enabling robust and real-time detection of small-scale and low-contrast defects in industrial steel billet inspection scenarios.
 
 ## Reference
 
