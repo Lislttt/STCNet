@@ -1,5 +1,5 @@
 # STCNet: A hybrid Transformer and CNN network for surface defect detection of Steel Continuous Casting Billets
-Welcome to the official repository for STCNet. This repository includes experiments and model of the papper [STCNet: A hybrid Transformer and CNN network for surface defect detection of Steel Continuous Casting Billets].
+Welcome to the official repository for STCNet. This repository includes experiments and model of the paper [STCNet: A hybrid Transformer and CNN network for surface defect detection of Steel Continuous Casting Billets].
 
 Authors: Shanlin Li, Zhehan Chen, Xiaodong Zhang, Tao Yang and Dianning Gong
 
@@ -19,6 +19,8 @@ Among CNN-based methods, YOLOv11 and YOLOv8 achieve 90.4% and 88.8% mAP@50, resp
 Compared with Transformer-based detectors, STCNet also outperforms RT-DETR (90.1%) and Swin Transformer (90.3%), and achieves accuracy comparable to DN-Deformable-DETR (92.0%), yet with 7× fewer parameters (7.1M vs. 47.2M) and only 15.9 GFLOPs of computation. Moreover, STCNet reaches an inference speed of 142.9 FPS, approximately 6× faster than most DETR variants, demonstrating its superior balance between precision and efficiency.
 
 Overall, these results indicate that STCNet achieves competitive detection accuracy while maintaining high computational efficiency. The hybrid Transformer–CNN architecture effectively combines global contextual modeling through the Transformer encoder with fine-grained local texture representation via CNN feature extraction, enabling robust and real-time detection of small-scale and low-contrast defects in industrial steel billet inspection scenarios.
+
+![image](https://github.com/Lislttt/STCNet/blob/main/overview.png)
 
 ## Reference
 
